@@ -27,3 +27,13 @@ The core features:
 - Presset database of exercisess with detaild info, to change and add to workouts.
 
 Those are the minimum necessary features, but when I begin using the web-app myself, if I find that the web-app lacks some functionality that I se usefull, I will add them.
+
+## Thechnologi choise
+
+To make this web-app, I am using the MERN stack with typescript. MERN is an achronym for:
+MongoDB Atlas as a cloud-based Database.
+Express.js providin API enpoints in backend.
+React.js on the client.
+Node.js running the server.
+The MERN-stack great for quick development. It also uses only javascript across the entire stack, but you can use typescript in place of javascript.
+I use the MERN-stack because of its easy development, and I have some experience with it. I use typescript to get type-safty, and I don't have experience with it, so I want to learn it.
