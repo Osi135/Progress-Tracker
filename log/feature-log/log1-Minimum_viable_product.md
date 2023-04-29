@@ -45,3 +45,12 @@ Since commands in the commandline are not tracable in the repository, I will spe
 ```
 
 Then I made a simple hello world script in index.ts
+
+### Client initialisation
+
+I created the react app.
+```bash
+/code $ npx create-react-app client --template typescript
+```
+
+Then I made a simple Hello world script.
