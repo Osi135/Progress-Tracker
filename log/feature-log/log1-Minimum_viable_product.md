@@ -25,8 +25,23 @@ My MVP will consist of:
 
 Once these 5 point are finished, the MVP is finished.
 
-Other features, like statistics view, the player, and data reformater; though difficult and necessary, I assume I will be able to cross that bridge when I get there. Also, the reason why I included the conection the the third party - even thoug it is not core to the project - is that it might introduce unexpected problems, connecting to a third party. So I want so know from the start that it works.
+Other features, like statistics view, the player, and data reformater; though difficult and necessary, I assume I will be able to cross that bridge when I get there. Also, the reason why I included the connection the the third party - even thoug it is not core to the project - is that it might introduce unexpected problems, connecting to a third party. So I want so know from the start that it works.
 
 ## Coding the feature
 
-### Signup, login ang logout.
+### Server initialisation
+
+To manage this project, I use npm and npx, because they are quite minimal, and I avoid a lot of boilerplate code.
+
+Since commands in the commandline are not tracable in the repository, I will specify them bellow, so that the process can still be traced.
+
+```bash
+/code/server $ npm init          # Then i filled in the options I wanted, the result can be viewed in code/server/package.json
+/code/server $ npm install --save-dev typescript 
+/code/server $ npx tsc --init
+/code/server $ npm install --save express
+/code/server $ npm install --save-dev @types/express
+/code/server $ npm install concurrently nodemon --save-dev
+```
+
+Then I made a simple hello world script in index.ts
