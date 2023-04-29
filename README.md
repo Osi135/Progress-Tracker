@@ -18,8 +18,8 @@ The other side of the reason why I am making this project, is that I want to lea
 
 ## How to navigate the project
 The [code folder](/code) contains all the main code needed for this project. If I wherent going to add all the documentation for this project that I am planing, this folder would insted be the whole repository. The code is seperated in to two parts. \
-The [backend](/code/backend/) (the server) of the app \
-and the [frontend](/code/frontend/) (the client) of the app.
+The [server](/code/server/) (the backend) of the app \
+and the [client](/code/client) (the frontend) of the app.
 
 The [docs folder](/docs) contains documentation for how to use the project. \
 The [user docs](/docs/user_docs/) explains how to use the web app. So if you have oppend the webapp and dont know how to use it, you should look at that folder. \
