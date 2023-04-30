@@ -1,2 +1,3 @@
 /code/server/node_modules
+/code/server/.env
 /code/client/node_modules
